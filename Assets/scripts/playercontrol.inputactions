@@ -1,0 +1,54 @@
+{
+    "name": "playercontrol",
+    "maps": [
+        {
+            "name": "player",
+            "id": "6f2f07d1-7a13-46e6-9013-9c66930e3692",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "06852407-3479-4a24-a962-5656d34c2a83",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "cam",
+                    "type": "Value",
+                    "id": "e386fa0d-938e-4c6c-9a92-bc7b49ebd29e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9e586e2-0016-4bbe-a511-656ad2b36bbb",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e00735c-1107-4600-ac14-93e5333ed8cd",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cam",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
